@@ -62,6 +62,8 @@ function rezultats(){
       const p =perimetrs(m1, m2, m3);
       const s= Math.round(laukums(m1,m2,m3)*100)/100;
       t+="Perimetrs ir "+p+" un laukums ir "+s+".";
+      if(m1==m2 && m2==m3)
+      t+=" Trijstūris ir vienādmalu."
     }
 }
 console.log(t);
