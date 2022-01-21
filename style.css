@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(10, 223, 123);
+  background: rgb(7,150,110);
+  background: linear-gradient(127deg, rgba(7,150,110,1) 34%, rgba(47,161,94,1) 62%, rgba(22,121,9,1) 100%, rgba(8,42,143,1) 100%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
   }
   button {
     background-color: #15a5e7;
@@ -11,6 +12,7 @@ body {
   img{
     width:200px;
     height:200px;
+    mix-blend-mode: multiply;
   }
   h1{
       text-align: center;
