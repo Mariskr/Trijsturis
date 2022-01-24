@@ -64,6 +64,8 @@ function rezultats(){
       t+="Perimetrs ir "+p+" un laukums ir "+s+".";
       if(m1==m2 && m2==m3)
       t+=" Trijstūris ir vienādmalu."
+      else if(m1==m2||m2==m3||m3==m1)
+      t+=" Trijstūris ir vienādsānu."
     }
 }
 console.log(t);
